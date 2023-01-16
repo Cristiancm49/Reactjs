@@ -4,6 +4,7 @@ import './App.css';
 import Greetingf from './components/pure/greetingf';
 import TaskListComponent from './components/container/task_list';
 import ContactListComponent from './components/container/contact_list';
+import Ejemplo1 from './hooks/Ejemplo1';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
         {/*Component propio Greeting.jsx */}
         {/*<Greeting name="Cristian"></Greeting>*/}
         
-        <ContactListComponent></ContactListComponent>
         {/*<ContactListComponent></ContactListComponent>*/}
+        {/*<ContactListComponent></ContactListComponent>*/}
+        <Ejemplo1></Ejemplo1>
       </header>
     </div>
   );
