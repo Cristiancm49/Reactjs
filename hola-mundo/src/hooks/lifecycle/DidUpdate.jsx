@@ -4,7 +4,7 @@
  */
 
 
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 
 export class DidUpdate extends Component {
 
@@ -23,9 +23,13 @@ export class DidUpdate extends Component {
 
 
 const DidUpdateHook = () => {
+
+    useEffect(() => {
+        console.log('Comportamiento cuando el componente recibe nuevos props o cambio en su estado')
+    });
     return (
         <div>
-            
+            <h1>DidUpdate</h1>
         </div>
     );
 }
